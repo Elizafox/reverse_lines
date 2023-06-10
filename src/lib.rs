@@ -42,8 +42,8 @@ extern crate assert_matches;
 
 const DEFAULT_SIZE: usize = 4096;
 
-static LF_BYTE: u8 = b'\n';
-static CR_BYTE: u8 = b'\r';
+const LF_BYTE: u8 = b'\n';
+const CR_BYTE: u8 = b'\r';
 
 /// `ReverseLines` struct
 pub struct ReverseLines<R: Seek + Read> {
